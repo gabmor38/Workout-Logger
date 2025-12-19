@@ -4,7 +4,7 @@ const CompletedWkGrid = () => {
     const weeks = [ 'w1','w2', 'w3','w4' ];
 
     return  (
-        <div className="grid grid-cols-1 grid-rows-1 gap-2 outline p-2 rounded-lg">
+        <div className="grid grid-cols-1 grid-rows-1 gap-2 border border-gray-300 p-2 rounded-lg">
             {weeks.map((week) => (  
                 <div key={week} className="inline-grid text-center grid-auto grid-cols-8 grid-rows-1 gap-4 rounded-md">
                     <p className="text-small font-bold">{week}</p>

@@ -15,7 +15,7 @@ const Form = () => {
             <input type="number" id="reps" name="reps" min="1" max="50" className="border border-gray-300 p-2 rounded" />
         </div>
         <div className="flex flex-col text-center mb-4">
-            <label htmlFor="weight">Weight</label>
+            <label htmlFor="weight">Weight (lbs)</label>
             <input type="number" id="weight" name="weight" min="1" max="500" className="border border-gray-300 p-2 rounded" />
         </div>
         </div>
