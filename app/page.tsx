@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../app/components/NavBar";
 import CompletedWkGrid from "./components/CompletedWkGrid";
+import Form from "./components/Form";
 
 export  default function Home() {
   return (  
@@ -8,6 +9,9 @@ export  default function Home() {
       <h1>Journal</h1>
       <div className="flex">
         <CompletedWkGrid/>
+      </div>
+      <div>
+        <Form/>
       </div>
       <NavBar />
     </div>
