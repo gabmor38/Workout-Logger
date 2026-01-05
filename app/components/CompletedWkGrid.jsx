@@ -3,6 +3,7 @@ const CompletedWkGrid = () => {
     const days = [1, 2, 3, 4, 5, 6, 7];
     const weeks = [ 'w1','w2', 'w3','w4' ];
 
+
     return  (
         <div className="grid grid-cols-1 grid-rows-1 gap-2 border border-gray-300 p-2 rounded-lg">
             {weeks.map((week) => (  
